@@ -5,5 +5,5 @@ def encrypt_neat(plaintext):
     print(ciphertext)
     return ciphertext
 
-plaintext = input("What would you like to 'encrypt'?")
+plaintext = input("What would you like to 'encrypt'?\n")
 ciphertext = encrypt_neat(plaintext)
